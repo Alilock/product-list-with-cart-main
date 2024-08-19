@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="main">
+    <div class="products">
+      <h1 class="page-title">
+        Desserts
+      </h1>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-waffle-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Waffle</p>
+            <p class="product-name"> Waffle with Berries</p>
+            <p class="product-price">$6.5</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="assets/images/image-creme-brulee-desktop.jpg" alt="" class="product-image">
+            <div class="add-button">
+              <img src="./assets/images/icon-add-to-cart.svg" class="icon" alt="">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+          <div class="card__bottom">
+            <p class="product-category">Crème Brûlée</p>
+            <p class="product-name"> Vanilla Bean Crème Brûlée</p>
+            <p class="product-price">$7</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="basket">
+      <h3>Your Cart(7)</h3>
+      <div class="item">
+        <div class="item__info">
+          <p>Classic Tiramisu</p>
+          <div> <span class="count">1x</span>
+            <span class="basket-price">$5.5</span>
+            <span class="basket-totalprice">$5.5</span>
+          </div>
+        </div>
+        <div class="remove-button">
+          <img src="./assets/images/icon-remove-item.svg" alt="" class="remove">
+        </div>
+      </div>
+      <hr>
+
+      <div class="item">
+        <div class="item__info">
+          <p>Classic Tiramisu</p>
+          <div> <span class="count">1x</span>
+            <span class="basket-price">$5.5</span>
+            <span class="basket-totalprice">$5.5</span>
+          </div>
+        </div>
+        <div class="remove-button">
+          <img src="./assets/images/icon-remove-item.svg" alt="" class="remove">
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- 
+
+ 
+  Waffle
+  6.50
+  Add to Cart
+
+  
+  
+  7.00
+  Add to Cart
+
+  Macaron Mix of Five
+  Macaron
+  8.00
+  Add to Cart
+
+  Classic Tiramisu
+  Tiramisu
+  5.50
+  Add to Cart
+
+  Pistachio Baklava
+  Baklava
+  4.00
+  Add to Cart
+
+  Lemon Meringue Pie
+  Pie
+  5.00
+  Add to Cart
+
+  Red Velvet Cake
+  Cake
+  4.50
+  Add to Cart
+
+  Salted Caramel Brownie
+  Brownie
+  4.50
+  Add to Cart
+
+  Vanilla Panna Cotta
+  Panna Cotta
+  6.50
+  Add to Cart
+
+  Your Cart ( Quantity )
+  Your added items will appear here -->
+
+  <div class="attribution">
+    Coded by <a href="#">Ali</a>.
+  </div>
+</body>
+
+</html>
